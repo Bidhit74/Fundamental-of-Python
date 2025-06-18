@@ -28,7 +28,20 @@ while index < len(name):
     print(name[index], end=" ")
     index += 1
 
-
+# Change String - but String is immutable 
+name = 'ILovePython'
+print(name)
+# name[0] = 'U' # throw error - String is immutable 
+# other way to change
+name2 = "U" + name[1:]
+print(name2)
+# syntax: replace(old,new,count(optional))
+str = "Lovely Professional Lovely Lovely Lovely"
+print(str)
+print(str.replace("Lovely","University")) # Har jagah yah change karega
+# University Professional University University University
+print(str.replace("Lovely","University",2)) # 2 jagah hi change karega
+# University Professional University Lovely Lovely
 
 
 
