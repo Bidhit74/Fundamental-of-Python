@@ -44,3 +44,41 @@ msg = "hello world"
 print(msg.startswith("hello"))  # True
 print(msg.endswith("world"))    # True
 
+# %s operator
+name = "Bidhit"
+print("Hello %s"%(name)) # Hello Bidhit
+
+# Format Method
+# syntax : template.format(p1,p2,....K1,k2....)
+str1 = "{} plus {} equal {}".format(4,5,'Nine')
+print(str1)
+str2 = "My name is {0} and i from {1}".format("Bidhit","India")
+str3 = "My name is {1} and i from {0}".format("Bidhit","India")
+print(str2) #My name is Bidhit and i from India
+print(str3) # My name is India and i from Bidhit
+
+# check String Character - isalnum() , isalpha and isdigit()
+s1 = "Bidhit"
+s2 = "Bidhit123"
+s3 = "123456@#%"
+s4 = "123456"
+
+# print(s1.isalnum()) # True
+# print(s2.isalnum()) # True
+# print(s3.isalnum()) # False
+# print(s4.isalnum()) # True
+
+# print(s1.isalpha()) # True
+# print(s2.isalpha()) # False
+# print(s3.isalpha()) # False
+# print(s4.isalpha()) # False
+
+# print(s1.isdigit()) # False
+# print(s2.isdigit()) # False
+# print(s3.isdigit()) # False
+# print(s4.isdigit()) # True
+
+# swapcase()	Converts lowercase to upper and vice versa
+
+s1 = "BidhIt KUmaR"
+print(s1.swapcase()) # bIDHiT kuMAr
