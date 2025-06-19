@@ -5,3 +5,4 @@ pattern = r"^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$"
 
 if re.search(pattern,password):
     print("Valid Email") 
+    
