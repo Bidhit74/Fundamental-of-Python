@@ -1,6 +1,5 @@
 # ✅ Bank Management System
 # 🔹 Features: Create account, Deposit money, Withdraw money, Show account details
-
 class BankAccount:
     def __init__(self, name, acc_no, balance=0):
         self.name = name
