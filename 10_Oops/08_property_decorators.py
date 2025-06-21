@@ -1,6 +1,5 @@
 # Question 8:- Property Decorators
 # Statement: Use a property decorator in the Car class to make the model atrribute read_only.
-
 class Car:
     track_car = 0
     def __init__(self,brand,model): 
